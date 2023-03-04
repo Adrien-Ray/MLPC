@@ -1,0 +1,22 @@
+.Form form {
+  border: 1px solid black;
+  padding: 1rem;
+}
+.Form form > label {
+  display: flex;
+  justify-content: space-between;
+}
+.Form form > label > input {
+  flex: 2;
+}
+.Form form > label > span {
+  text-align: right;
+  display: block;
+  flex: 1;
+  padding-right: 0.5rem;
+}
+.Form form > input[type=submit] {
+  display: block;
+  margin-left: auto;
+  margin-top: 1rem;
+}/*# sourceMappingURL=Form.css.map */

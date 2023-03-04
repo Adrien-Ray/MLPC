@@ -1,0 +1,24 @@
+.Form {
+    form {
+        border: 1px solid black;
+        padding: 1rem;
+        >label {
+            display: flex;
+            justify-content: space-between;
+            >input {
+                flex: 2;
+            }
+            >span {
+                text-align: right;
+                display: block;
+                flex: 1;
+                padding-right: .5rem;
+            }
+        }
+        >input[type="submit"] {
+            display: block;
+            margin-left: auto;
+            margin-top: 1rem;
+        }
+    }
+}

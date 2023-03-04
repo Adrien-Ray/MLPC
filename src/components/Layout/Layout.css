@@ -1,0 +1,21 @@
+.Layout {
+  background-color: rgb(41, 41, 41);
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: whitesmoke;
+  padding: 0 1rem;
+}
+.Layout > img {
+  animation: rotateReact 4s linear infinite;
+  height: 5rem;
+}
+@keyframes rotateReact {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}/*# sourceMappingURL=Layout.css.map */
